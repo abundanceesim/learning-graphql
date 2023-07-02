@@ -1,0 +1,19 @@
+{
+  "name": "learning-graphql",
+  "version": "1.0.0",
+  "description": "Simple server for learning to use GraphQL - concept from Web Dev Simplified on YT.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abundanceesim/learning-graphql.git"
+  },
+  "author": "Abundance Esim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abundanceesim/learning-graphql/issues"
+  },
+  "homepage": "https://github.com/abundanceesim/learning-graphql#readme"
+}
