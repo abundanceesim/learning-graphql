@@ -2,8 +2,9 @@
   "name": "learning-graphql",
   "version": "1.0.0",
   "description": "Simple server for learning to use GraphQL - concept from Web Dev Simplified on YT.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "devStart": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/abundanceesim/learning-graphql/issues"
   },
-  "homepage": "https://github.com/abundanceesim/learning-graphql#readme"
+  "homepage": "https://github.com/abundanceesim/learning-graphql#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
 }
